@@ -14,7 +14,7 @@ router.get("/api/workout", (req, res) => {
         });
 });
 
-// GET workout range from DB
+// GET workout range from DB for stats
 router.get("/api/workout/range", (req, res) => {
     Workout.find({})
         .sort({ date: -1 })
