@@ -17,14 +17,19 @@ router.get("/api/workout", (req, res) => {
 // GET workout range from DB for stats
 router.get("/api/workout/range", (req, res) => {
     Workout.find({})
-        .sort({ date: -1 })
-        .then(dbWorkout => {
-            res.json(dbWorkout);
-        })
+    .limit(7)
+    .sort({ date: -1 })
+    .then(dbWorkout => {
+        res.json(dbWorkout);
+    })
         .catch(err => {
             res.status(400).json(err);
         });
 });
+
+    // .aggregate([{ $addFields: { totalDuration: { $sum: "$exercises.duration" }}}])
+
+
 
 // POST a new workout to DB
 router.post("/api/workout", ({ body }, res) => {
