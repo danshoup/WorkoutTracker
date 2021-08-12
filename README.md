@@ -1,4 +1,4 @@
-# 18 Nosql Homeword
+# 18 Nosql Homework
 
 ## Creating a Workout Tracker
 
@@ -13,22 +13,11 @@ The app allows a user to track daily workouts. The user can log multiple exercis
 
 ### Workout Tracker Screenshot
 
-![Application Screen Shot](./public/WorkoutTracker-screenshot.png)
-
+![Application Screen Shot1](./public/WorkoutTracker-screenshot.png)
+![Application Screen Shot2](./public/WorkoutTracker-screenshot2.png)
 
 ## Acceptance Criteria
 
-- When first visiting site, user is presented with homopage that includes all existing blog posts, navigation links for homepage and dashboard, and the option to login. 
-
-- Clicking any link other than homepage prompts the user to login or signup to view other pages.
-
-- Clicking on a blog post opens the post with any comments relating to it.  If logged in, the user has the option to create a comment on the blog post.
-
-- User creates a username and password, and/or is logged in and taken to their dashboard page, where they can see a list of any blog posts that they have created, and the option to logout.
-
-- Clicking on a blog post from the dashboard opens the blog post with the option to edit or delete it.
-
-- When idle for longer than a set time, the user is logged out, and can view posts or comments, but has to log in again in order to add, edit, or delete.
 
 - Folder structure follows the MVC paradim.
 
