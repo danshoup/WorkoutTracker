@@ -2,7 +2,7 @@
 
 ## Creating a Workout Tracker
 
-This is the eighteenth assignment for the MSU Coding Bootcamp; to create a the backend, database and routes of a workout tracker, and to deploy it on Heroku.  Using Mongoose witha  Mongo database, and Express router, the app will also utilize MongoDB Atlas.
+This is the eighteenth assignment for the MSU Coding Bootcamp; to create the backend, database and routes of a workout tracker, and to deploy it on Heroku.  Using Mongoose with a Mongo database, and Express router, the app will also utilize MongoDB Atlas.
 
 The app allows a user to track daily workouts. The user can log multiple exercises in a workout, can track the workout data, can track distance for cardio workouts.
 
